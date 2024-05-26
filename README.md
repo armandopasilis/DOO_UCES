@@ -2,12 +2,12 @@
 ____________________________________________________________________________________________
 Biblioteca Municipal "Luz y Saber"! - Diseño del Sistema
 ____________________________________________________________________________________________
-ALumno:Armando Pasilis
-Materia: Diseño Orientado a Objetos -
-Carrera:Tecnicatura Universitaria en Programación de Sistemas
-Profesor:Matias Velasquez
-Año:2024
-Introducción
+ALumno:Armando Pasilis  
+Materia: Diseño Orientado a Objetos -  
+Carrera:Tecnicatura Universitaria en Programación de Sistemas  
+Profesor:Matias Velasquez  
+Año:2024  
+Introducción  
 ____________________________________________________________________________________________
 (Descripción de la aplicación y su propósito, incluye los requisitos que se abordan y el
 análisis que hiciste en la Actividad Obligatoria N°1. )
