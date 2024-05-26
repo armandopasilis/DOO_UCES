@@ -17,4 +17,5 @@ ________________________________________________________________________________
 escenarios de casos de uso, asegurate de que los permisos de lectura sean los
 correctos)
 1. Tarjetas CRC
-2. https://docs.google.com/presentation/d/1jCiKkZnsjfZlzVZz31d36C87lstlnUpBusQ_S_YL_1g/edit?usp=sharing
+2. Estas tarjetas CRC resumen las responsabilidades y colaboradores de las clases principales del sistema de la Biblioteca Municipal "Luz y Saber"
+3. https://docs.google.com/presentation/d/1jCiKkZnsjfZlzVZz31d36C87lstlnUpBusQ_S_YL_1g/edit?usp=sharing
