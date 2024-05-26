@@ -16,3 +16,5 @@ ________________________________________________________________________________
 (Enlaces a los diagramas de actividades, secuencia, clases, de casos de uso,
 escenarios de casos de uso, asegurate de que los permisos de lectura sean los
 correctos)
+1. Tarjetas CRC
+2. https://docs.google.com/presentation/d/1jCiKkZnsjfZlzVZz31d36C87lstlnUpBusQ_S_YL_1g/edit?usp=sharing
