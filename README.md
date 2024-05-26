@@ -2,8 +2,9 @@
 ____________________________________________________________________________________________
 Biblioteca Municipal "Luz y Saber"! - Diseño del Sistema
 ____________________________________________________________________________________________
-Armando Pasilis
-Diseño Orientado a Objetos - Tecnicatura Universitaria en Programación de Sistemas
+ALumno:Armando Pasilis
+Materia: Diseño Orientado a Objetos -
+Carrera:Tecnicatura Universitaria en Programación de Sistemas
 Profesor:Matias Velasquez
 Año:2024
 Introducción
