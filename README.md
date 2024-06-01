@@ -9,8 +9,12 @@ Profesor:Matias Velasquez
 Año:2024  
 Introducción  
 ____________________________________________________________________________________________
-(Descripción de la aplicación y su propósito, incluye los requisitos que se abordan y el
-análisis que hiciste en la Actividad Obligatoria N°1. )
+La aplicacion tiene como proposito facilitar las tareas del usuario y bibliotecario.
+Los requisitos   
+-Registro y gestión de libros:Este requisito es el necesario para ingresar nuevos libros al sistema y para su correcto almacenaje . Este requisito relaciona la entidad Empleado y entidad Libro .  
+-Registro y gestión de usuarios: Permite al Empleado poder ingresar al sistema nuevos usuarios y s posterior creación de credencial.Este requisito relaciona Empleado y Usuario  
+- Préstamos y Devoluciones :  Permite al empleado gestionar los servicios de préstamo y devolución , donde entran en juego las tres entidades .  
+
 Diagramas y Diseños
 ____________________________________________________________________________________________
 (Enlaces a los diagramas de actividades, secuencia, clases, de casos de uso,
@@ -19,3 +23,4 @@ correctos)
 1. Tarjetas CRC
 2. Estas tarjetas CRC resumen las responsabilidades y colaboradores de las clases principales del sistema de la Biblioteca Municipal "Luz y Saber"
 3. https://docs.google.com/presentation/d/1jCiKkZnsjfZlzVZz31d36C87lstlnUpBusQ_S_YL_1g/edit?usp=sharing
+3. Escenarios de Casos de Uso
