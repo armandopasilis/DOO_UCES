@@ -24,8 +24,11 @@ ________________________________________________________________________________
 1. Tarjetas CRC
 2. Estas tarjetas CRC resumen las responsabilidades y colaboradores de las clases principales del sistema de la Biblioteca Municipal "Luz y Saber"
 3. https://docs.google.com/presentation/d/1jCiKkZnsjfZlzVZz31d36C87lstlnUpBusQ_S_YL_1g/edit?usp=sharing
+__________________________________________________________________________________________
+1. Diagramas de Casos de Uso
+2. Es una herramienta visual que se utiliza para modelar las interacciones entre un sistema y sus usuarios.
+3. https://docs.google.com/presentation/d/14m3YRAAMCLfZwr2F_foWqe6eG-wjz8tyPMlMAubBNbc/edit?usp=sharing
  ____________________________________________________________________________________________
 1. Escenarios de Casos de Uso
 2. Es una narración que describe un flujo específico de interacción entre un actor (un usuario del sistema) y el sistema, con el objetivo de completar una tarea o alcanzar un objetivo específico.
 https://docs.google.com/spreadsheets/d/1DsOFDdp2decXhO5Q-h-X5VQFj5rcK7yxf1D3R6Nu6v4/edit#gid=549554537
-____________________________________________________________________________________________
