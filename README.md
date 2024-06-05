@@ -17,9 +17,9 @@ Los requisitos
 
 Diagramas y Diseños
 ____________________________________________________________________________________________
-1.diagramas de actividades
-2.diagramas secuencia
-3.diagramas clases
+1.diagramas de actividades  --->https://docs.google.com/document/d/1aC4cKl7nlpdkBW6P35O7W9UyaYTO3Xysj_CXDrlb4-I/edit
+2.tp con diagramas secuencia  --->https://docs.google.com/document/d/1aC4cKl7nlpdkBW6P35O7W9UyaYTO3Xysj_CXDrlb4-I/edit
+3.tp con diagramas clases     --->https://docs.google.com/document/d/1vfcTFgIY76Wxf_odAISKxG7x14f8j6R7z-pnQ6g7GZU/edit
 ____________________________________________________________________________________________
 1. Tarjetas CRC  
 2. Estas tarjetas CRC resumen las responsabilidades y colaboradores de las clases principales del sistema de la Biblioteca Municipal "Luz y Saber" 
