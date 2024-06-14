@@ -7,7 +7,7 @@ Materia: Diseño Orientado a Objetos -
 Carrera:Tecnicatura Universitaria en Programación de Sistemas  
 Profesor:Matias Velasquez  
 Año:2024  
-##Introducción  
+## Introducción  
 ____________________________________________________________________________________________
 La aplicacion tiene como proposito facilitar las tareas del usuario y bibliotecario.
 Los requisitos   
@@ -15,13 +15,13 @@ Los requisitos
 -Registro y gestión de usuarios: Permite al Empleado poder ingresar al sistema nuevos usuarios y s posterior creación de credencial.Este requisito relaciona Empleado y Usuario   
 -Préstamos y Devoluciones :  Permite al empleado gestionar los servicios de préstamo y devolución , donde entran en juego las tres entidades .  
 
-##Diagramas y Diseños
+## Diagramas y Diseños
 ____________________________________________________________________________________________
-1.diagramas de actividades  --->https://docs.google.com/document/d/1aC4cKl7nlpdkBW6P35O7W9UyaYTO3Xysj_CXDrlb4-I/edit
+1.diagramas de actividades  ---> [Aqui] (https://docs.google.com/document/d/1aC4cKl7nlpdkBW6P35O7W9UyaYTO3Xysj_CXDrlb4-I/edit)
 2.tp con diagramas secuencia  --->https://docs.google.com/document/d/1aC4cKl7nlpdkBW6P35O7W9UyaYTO3Xysj_CXDrlb4-I/edit
 3.tp con diagramas clases     --->https://docs.google.com/document/d/1vfcTFgIY76Wxf_odAISKxG7x14f8j6R7z-pnQ6g7GZU/edit
 ____________________________________________________________________________________________
-##Tarjetas CRC  
+## Tarjetas CRC  
 2. Estas tarjetas CRC resumen las responsabilidades y colaboradores de las clases principales del sistema de la Biblioteca Municipal "Luz y Saber" 
 3. https://docs.google.com/presentation/d/1jCiKkZnsjfZlzVZz31d36C87lstlnUpBusQ_S_YL_1g/edit?usp=sharing  
 __________________________________________________________________________________________
