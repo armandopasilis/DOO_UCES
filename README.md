@@ -17,12 +17,12 @@ Los requisitos
 
 ## Diagramas y Diseños
 
-1.diagramas de actividades  ---> [Aqui](https://docs.google.com/document/d/1aC4cKl7nlpdkBW6P35O7W9UyaYTO3Xysj_CXDrlb4-I/edit)
-2.tp con diagramas secuencia  --->[Aqui](https://docs.google.com/document/d/1aC4cKl7nlpdkBW6P35O7W9UyaYTO3Xysj_CXDrlb4-I/edit)
-3.tp con diagramas clases     --->[Aqui](https://docs.google.com/document/d/1vfcTFgIY76Wxf_odAISKxG7x14f8j6R7z-pnQ6g7GZU/edit)
+1.diagramas de actividades  ---> [Aqui](https://docs.google.com/document/d/1aC4cKl7nlpdkBW6P35O7W9UyaYTO3Xysj_CXDrlb4-I/edit)  
+2.tp con diagramas secuencia  --->[Aqui](https://docs.google.com/document/d/1aC4cKl7nlpdkBW6P35O7W9UyaYTO3Xysj_CXDrlb4-I/edit)  
+3.tp con diagramas clases     --->[Aqui](https://docs.google.com/document/d/1vfcTFgIY76Wxf_odAISKxG7x14f8j6R7z-pnQ6g7GZU/edit)  
 ____________________________________________________________________________________________
 ## Tarjetas CRC  
-2. Estas tarjetas CRC resumen las responsabilidades y colaboradores de las clases principales del sistema de la Biblioteca Municipal "Luz y Saber" 
+2. Estas tarjetas CRC resumen las responsabilidades y colaboradores de las clases principales del sistema de la Biblioteca Municipal "Luz y Saber"   
 3. [Aqui](https://docs.google.com/presentation/d/1jCiKkZnsjfZlzVZz31d36C87lstlnUpBusQ_S_YL_1g/edit?usp=sharing)
 __________________________________________________________________________________________
 ## Diagramas de Casos de Uso  
@@ -30,5 +30,5 @@ ________________________________________________________________________________
 3. [Aqui](https://docs.google.com/presentation/d/14m3YRAAMCLfZwr2F_foWqe6eG-wjz8tyPMlMAubBNbc/edit?usp=sharing)
  ____________________________________________________________________________________________
 ## Escenarios de Casos de Uso
-2. Es una narración que describe un flujo específico de interacción entre un actor (un usuario del sistema) y el sistema, con el objetivo de completar una tarea o alcanzar un objetivo específico. [Aqui] 
-(https://docs.google.com/spreadsheets/d/1DsOFDdp2decXhO5Q-h-X5VQFj5rcK7yxf1D3R6Nu6v4/edit#gid=549554537)
+2. Es una narración que describe un flujo específico de interacción entre un actor (un usuario del sistema) y el sistema, con el objetivo de completar una tarea o alcanzar un objetivo específico.  
+3.  [Aqui](https://docs.google.com/spreadsheets/d/1DsOFDdp2decXhO5Q-h-X5VQFj5rcK7yxf1D3R6Nu6v4/edit#gid=549554537)
