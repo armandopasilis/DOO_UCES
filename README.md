@@ -32,3 +32,7 @@ ________________________________________________________________________________
 ## Escenarios de Casos de Uso
 * Es una narración que describe un flujo específico de interacción entre un actor (un usuario del sistema) y el sistema, con el objetivo de completar una tarea o alcanzar un objetivo específico.  
 *  [Aqui](https://docs.google.com/spreadsheets/d/1DsOFDdp2decXhO5Q-h-X5VQFj5rcK7yxf1D3R6Nu6v4/edit#gid=549554537)
+____________________________________________________________________________________________  
+## Escenarios de Casos de Uso  
+*Esta matriz CLAE sirve para determinar los métodos y operaciones para los ofrecimientos del sistema  
+*  [Aqui](https://docs.google.com/spreadsheets/d/1wAI_8oAL7P7DYLKixcjc1FFFu3q6vCk1r_FlEkbEf-0/edit?usp=sharing)
