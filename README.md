@@ -17,8 +17,8 @@ Los requisitos
 
 ## Diagramas y Diseños
 
-1.diagramas de actividades  ---> [Aqui](https://github.com/armandopasilis/DOO_UCES/blob/main/diagrama%20de%20actividades.drawio)  
-2.Diagramas secuencia  --->[Aqui](https://docs.google.com/presentation/d/1i_uKVIqJN0TnCQ1aR7jVnM60ItPXd8-3ih1lAw8xRZ8/edit#slide=id.p)  
+1.diagramas de actividades  ---> [Aqui](https://docs.google.com/presentation/d/1i_uKVIqJN0TnCQ1aR7jVnM60ItPXd8-3ih1lAw8xRZ8/edit#slide=id.p)  
+2.Diagramas secuencia  --->[Aqui](https://docs.google.com/document/d/1XxTVw_RGB7xmXsWb7b6ZQNCbKIO5DcObN38RhyjaOo8/edit?usp=sharing)  
 3.tp con diagramas clases     --->[Aqui](https://docs.google.com/document/d/1vfcTFgIY76Wxf_odAISKxG7x14f8j6R7z-pnQ6g7GZU/edit)  
 ____________________________________________________________________________________________
 ## Tarjetas CRC  
