@@ -17,17 +17,17 @@ Los requisitos
 
 ## Diagramas y Diseños
 
-1.diagramas de actividades  ---> [Aqui](https://docs.google.com/document/d/1aC4cKl7nlpdkBW6P35O7W9UyaYTO3Xysj_CXDrlb4-I/edit)  
-2.tp con diagramas secuencia  --->[Aqui](https://docs.google.com/document/d/1aC4cKl7nlpdkBW6P35O7W9UyaYTO3Xysj_CXDrlb4-I/edit)  
+1.diagramas de actividades  ---> [Aqui](https://github.com/armandopasilis/DOO_UCES/blob/main/diagrama%20de%20actividades.drawio)  
+2.Diagramas secuencia  --->[Aqui](https://github.com/armandopasilis/DOO_UCES/blob/main/DIAGRAMA%20DE%20SECUENCIA%20(1).drawio)  
 3.tp con diagramas clases     --->[Aqui](https://docs.google.com/document/d/1vfcTFgIY76Wxf_odAISKxG7x14f8j6R7z-pnQ6g7GZU/edit)  
 ____________________________________________________________________________________________
 ## Tarjetas CRC  
 * Estas tarjetas CRC resumen las responsabilidades y colaboradores de las clases principales del sistema de la Biblioteca Municipal "Luz y Saber"   
-* [Aqui](https://docs.google.com/presentation/d/1jCiKkZnsjfZlzVZz31d36C87lstlnUpBusQ_S_YL_1g/edit?usp=sharing)
+* [Aqui](https://github.com/armandopasilis/DOO_UCES/blob/main/CRC.drawio)
 __________________________________________________________________________________________
 ## Diagramas de Casos de Uso  
 * Es una herramienta visual que se utiliza para modelar las interacciones entre un sistema y sus usuarios.  
-* [Aqui](https://docs.google.com/presentation/d/14m3YRAAMCLfZwr2F_foWqe6eG-wjz8tyPMlMAubBNbc/edit?usp=sharing)
+* [Aqui](https://github.com/armandopasilis/DOO_UCES/blob/main/Diagrama%20casos%20uso.drawio)
  ____________________________________________________________________________________________
 ## Escenarios de Casos de Uso
 * Es una narración que describe un flujo específico de interacción entre un actor (un usuario del sistema) y el sistema, con el objetivo de completar una tarea o alcanzar un objetivo específico.  
