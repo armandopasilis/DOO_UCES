@@ -19,7 +19,7 @@ Los requisitos
 
 1.diagramas de actividades  ---> [Aqui](https://docs.google.com/presentation/d/1i_uKVIqJN0TnCQ1aR7jVnM60ItPXd8-3ih1lAw8xRZ8/edit#slide=id.p)  
 2.Diagramas secuencia  --->[Aqui](https://docs.google.com/document/d/1XxTVw_RGB7xmXsWb7b6ZQNCbKIO5DcObN38RhyjaOo8/edit?usp=sharing)  
-3.tp con diagramas clases     --->[Aqui](https://docs.google.com/document/d/1vfcTFgIY76Wxf_odAISKxG7x14f8j6R7z-pnQ6g7GZU/edit)  
+3.Diagramas clases     --->[Aqui](https://docs.google.com/presentation/d/1hRUJWvK62TNMjvtD5F0mrpfBQo8xms379FoKEji9zoo/edit?usp=sharing)  
 ____________________________________________________________________________________________
 ## Tarjetas CRC  
 * Estas tarjetas CRC resumen las responsabilidades y colaboradores de las clases principales del sistema de la Biblioteca Municipal "Luz y Saber"   
