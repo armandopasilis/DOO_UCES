@@ -1,0 +1,324 @@
+
+1. Explica los patrones de diseño: ¿Qué son y cuáles son los tipos más comunes?
+Proporciona una síntesis de los patrones más utilizados en el desarrollo de software.  
+
+
+1. Patrones de diseño
+¿Qué son los patrones de diseño?
+Los patrones de diseño son soluciones típicas y reutilizables  para problemas recurrentes en el diseño de software. Proveen un enfoque probado y eficaz para resolver problemas comunes mientras promueven buenas prácticas de diseño y haciendo que el código sea flexible, reutilizable y fácil de mantener.
+Proporcionan plantillas para crear clases y objetos que interactúan entre sí de manera efectiva.
+
+síntesis de los patrones más utilizados en el desarrollo de software:
+
+Patrones creacionales: Se centran en cómo crear instancias de objetos o grupos de objetos relacionados.Proporcionan mecanismos para crear objetos de manera flexible.
+Ejemplos: Singleton, Factory Method, Abstract Factory.
+
+Patrones estructurales: Se ocupan de cómo se organizan los objetos enfocandose en la composición de clases y objetos
+Ejemplos: Adapter, Decorator, Facade.
+
+Patrones de comportamiento: Se enfocan en cómo interactúan y distribuyen responsabilidades los objetos.Definen la forma en que los objetos interactúan entre sí.
+Ejemplos: Observer, Strategy, Template Method.
+
+Patrón Singleton: Garantiza que solo exista una instancia de una clase.
+Patrón Factory: Crea objetos de diferentes clases de manera flexible.
+Patrón Adaptador: Convierte la interfaz de una clase en otra compatible con el cliente.
+Patrón Decorador: Agrega funcionalidad a un objeto sin modificar su estructura.
+Patrón Observador: Define una relación uno a muchos entre objetos para notificar cambios.
+Patrón Estrategia: Encapsula un algoritmo en una clase, permitiendo intercambiarlo.
+
+
+
+2. Selección de patrones de diseño: Elige dos patrones de diseño y justifica por qué
+los aplicarías en tu proyecto. Describe el problema que resolverían y cómo afectarían
+a las clases existentes y a las nuevas clases que se incorporarían al proyecto. Incluye
+estas nuevas clases en un diagrama.
+
+Patrón Singleton:
+Problema: Garantizar que solo exista una instancia de la clase que gestiona la conexión a la base de datos o el acceso a recursos compartidos.
+Solución: Implementar la clase ConexionBD o GestorRecursos como un singleton, asegurando que todas las partes del sistema accedan a la misma instancia.
+Impacto:
+Clases existentes: No afecta directamente a las clases existentes.
+Nuevas clases: Las clases que necesiten acceder a la base de datos o recursos compartidos pueden obtener la instancia del singleton mediante un método público estático.
+
+Patrón Factory:
+Problema: Crear objetos de diferentes tipos (libros, préstamos, socios, multas) de manera flexible y sin necesidad de modificar el código cliente.
+Solución: Implementar una clase FactoryBiblioteca que reciba el tipo de objeto deseado y devuelva la instancia correspondiente.
+Impacto:
+Clases existentes: Las clases que crean objetos pueden utilizar la clase FactoryBiblioteca para obtener instancias sin necesidad de conocer las clases concretas.
+Nuevas clases: Se deben crear clases concretas para cada tipo de objeto (por ejemplo, Libro, Prestamo, Socio, Multa) e implementar la interfaz IObjetoBiblioteca definida por la clase FactoryBiblioteca.
+
+
+
+
+
+3. Principios SOLID: ¿Qué son los principios SOLID y cómo se aplican en el diseño
+orientado a objetos? Proporciona un ejemplo de cada principio y explica cómo se
+manifiesta en el desarrollo de software.
+
+Los principios SOLID son un conjunto de principios de diseño de software orientado a objetos que fueron introducidos por Robert C. Martin (también conocido como Uncle Bob). Estos principios son guías que ayudan a los desarrolladores a crear sistemas más mantenibles, flexibles y fáciles de entender. Cada letra del acrónimo SOLID representa un principio específico:
+
+1. Principio de Responsabilidad Única (Single Responsibility Principle - SRP)
+¿Qué es?
+Este principio establece que una clase debe tener una única razón para cambiar, es decir, debe tener una sola responsabilidad.
+
+Ejemplo:
+Imaginemos una clase Libro en un sistema de biblioteca. El SRP sugiere que esta clase debe ser responsable únicamente de la gestión de los datos relacionados con el libro, como el título, el autor, el año de publicación, etc. No debería encargarse de la lógica de negocio relacionada con los préstamos o la gestión de inventario.
+
+Manifestación en el desarrollo de software:
+
+Beneficios: Mejora la cohesión de la clase y facilita el mantenimiento. Si hay un cambio en los requisitos relacionados con la gestión de libros, se modifica una única clase (Libro) en lugar de múltiples clases.
+Implementación: Para aplicar SRP, se pueden crear otras clases como GestorPrestamos, GestorInventario, etc., que manejen las responsabilidades adicionales separadamente.
+2. Principio de Abierto/Cerrado (Open/Closed Principle - OCP)
+¿Qué es?
+Este principio establece que las entidades de software (clases, módulos, funciones, etc.) deben estar abiertas para la extensión pero cerradas para la modificación. En otras palabras, se debe poder extender el comportamiento de una entidad sin modificar su código fuente.
+
+Ejemplo:
+Continuando con el ejemplo anterior, si queremos agregar un nuevo tipo de libro (por ejemplo, libro electrónico), deberíamos poder hacerlo sin modificar la clase existente Libro.
+
+Manifestación en el desarrollo de software:
+
+Beneficios: Promueve la reutilización del código existente y facilita la introducción de nuevas funcionalidades sin riesgo de romper el código existente.
+Implementación: Utilizar patrones como Factory Method o Strategy Pattern para manejar la creación de nuevos tipos de libros sin alterar la clase Libro directamente.
+3. Principio de Sustitución de Liskov (Liskov Substitution Principle - LSP)
+¿Qué es?
+Este principio establece que los objetos de una clase derivada deben poder sustituirse por objetos de la clase base sin afectar la corrección del programa. En otras palabras, las subclases deben ser substituibles por sus clases base.
+
+Ejemplo:
+En el contexto de una biblioteca, si tenemos una clase base Prestamo y una subclase PrestamoLibro, cualquier método que trabaje con Prestamo debería poder trabajar correctamente con PrestamoLibro sin necesidad de conocer los detalles específicos de la subclase.
+
+Manifestación en el desarrollo de software:
+
+Beneficios: Facilita la interoperabilidad y el reuso del código. Las clases base pueden definir comportamientos comunes, mientras que las subclases pueden especializarse según sea necesario.
+Implementación: Asegurar que las subclases sigan cumpliendo con los contratos (interfaces o comportamientos) definidos por las clases base para garantizar la sustitución sin problemas.
+4. Principio de Segregación de la Interfaz (Interface Segregation Principle - ISP)
+¿Qué es?
+Este principio establece que los clientes no deben ser forzados a depender de interfaces que no utilizan. En otras palabras, una interfaz debe ser específica y contener solo los métodos que su cliente necesita, no métodos adicionales que puedan no ser relevantes para el cliente.
+
+Ejemplo:
+Si tenemos una interfaz ServicioBiblioteca con métodos prestarLibro(), devolverLibro() y buscarLibro(), pero una clase cliente solo necesita los métodos prestarLibro() y devolverLibro(), entonces se debería dividir la interfaz en interfaces más específicas.
+
+Manifestación en el desarrollo de software:
+
+Beneficios: Evita la dependencia innecesaria y el acoplamiento fuerte entre clases. Mejora la cohesión y facilita la implementación de nuevas funcionalidades específicas.
+Implementación: Dividir la interfaz ServicioBiblioteca en interfaces más pequeñas como ServicioPrestamo y ServicioConsulta según las necesidades de los clientes.
+5. Principio de Inversión de Dependencias (Dependency Inversion Principle - DIP)
+¿Qué es?
+Este principio establece que los módulos de alto nivel no deben depender de módulos de bajo nivel. Ambos deben depender de abstracciones. Además, las abstracciones no deben depender de detalles. Los detalles deben depender de las abstracciones.
+
+Ejemplo:
+Supongamos que tenemos una clase GestorPrestamos que depende directamente de la implementación de una base de datos para almacenar la información de los préstamos. Aplicando DIP, GestorPrestamos debería depender de una abstracción (ConexionBD), no de la implementación concreta de la base de datos.
+
+Manifestación en el desarrollo de software:
+
+Beneficios: Reduce el acoplamiento y aumenta la flexibilidad. Permite intercambiar fácilmente las implementaciones subyacentes sin afectar otras partes del sistema.
+Implementación: Utilizar interfaces o clases abstractas para definir contratos (por ejemplo, InterfazConexionBD) y que GestorPrestamos dependa de esta abstracción en lugar de una implementación concreta.
+Resumen
+Los principios SOLID son fundamentales para crear sistemas robustos, mantenibles y flexibles en el desarrollo de software orientado a objetos. Cada principio aborda diferentes aspectos del diseño y se complementan entre sí para promover mejores prácticas y una arquitectura más sólida en los sistemas de software.
+
+
+
+
+
+
+4. Aplicación de los principios SOLID: Describe cómo aplicarías cada uno de los
+principios SOLID en tu proyecto y explica qué problemas resolvería su uso. Identifica
+las clases nuevas que se incorporarían y aquellas que se verían afectadas por la
+aplicación de estos principios, muestra un antes y un después en las clases afectadas:
+sus métodos, atributos, etc.
+
+Para aplicar los principios SOLID en el proyecto del sistema de biblioteca, vamos a analizar cómo cada principio puede ser implementado y qué beneficios proporcionaría. Vamos a revisar cada principio SOLID y su aplicación específica en el contexto del sistema de biblioteca.
+
+1. Principio de Responsabilidad Única (SRP)
+Objetivo:
+Garantizar que cada clase tenga una única razón para cambiar, es decir, una sola responsabilidad.
+
+Aplicación:
+En el contexto de nuestro sistema de biblioteca, aplicaremos SRP asegurando que cada clase tenga responsabilidades bien definidas y específicas.
+
+Antes de la aplicación:
+
+plaintext
+Copiar código
+Clase Libro:
+- atributos: titulo, autor, añoPublicacion
+- métodos: obtenerTitulo(), obtenerAutor(), obtenerAnioPublicacion(), gestionarPrestamo(), gestionarDevolucion()
+Después de la aplicación:
+
+plaintext
+Copiar código
+Clase Libro:
+- atributos: titulo, autor, añoPublicacion
+- métodos: obtenerTitulo(), obtenerAutor(), obtenerAnioPublicacion()
+
+Clase GestorPrestamos:
+- métodos: gestionarPrestamo(), gestionarDevolucion()
+Beneficios:
+Separación de preocupaciones entre la gestión de datos de un libro y la lógica de préstamo/devolución, lo cual facilita el mantenimiento y la evolución independiente de ambas responsabilidades.
+
+2. Principio de Abierto/Cerrado (OCP)
+Objetivo:
+Las entidades de software deben ser abiertas para la extensión pero cerradas para la modificación.
+
+Aplicación:
+Utilizaremos OCP para permitir la introducción de nuevas funcionalidades (por ejemplo, nuevos tipos de préstamos) sin modificar el código existente.
+
+Antes de la aplicación:
+
+plaintext
+Copiar código
+Interfaz Prestamo:
+- método: calcularMulta()
+Después de la aplicación:
+
+plaintext
+Copiar código
+Interfaz Prestamo:
+- método: calcularMulta()
+
+Clase PrestamoLibro implementa Prestamo:
+- método: calcularMulta() {
+    // Cálculo específico para libros
+}
+Beneficios:
+Facilita la introducción de nuevos tipos de préstamos (por ejemplo, préstamos de películas) sin modificar la interfaz Prestamo ni el código existente de PrestamoLibro.
+
+3. Principio de Sustitución de Liskov (LSP)
+Objetivo:
+Las subclases deben poder ser sustituidas por sus clases base sin afectar la funcionalidad del programa.
+
+Aplicación:
+Aplicaremos LSP para garantizar que todas las subclases de Prestamo puedan ser utilizadas de manera intercambiable donde se espera un Prestamo.
+
+Antes de la aplicación:
+
+plaintext
+Copiar código
+Clase Prestamo:
+- método: obtenerFechaDevolucion()
+Después de la aplicación:
+
+plaintext
+Copiar código
+Clase Prestamo:
+- método: obtenerFechaDevolucion()
+
+Clase PrestamoLibro extends Prestamo:
+- implementa correctamente todos los métodos de la clase padre
+Beneficios:
+Permite tratar todos los préstamos (PrestamoLibro, PrestamoPelicula, etc.) de manera uniforme donde se requiera una referencia a Prestamo, facilitando la extensibilidad y mantenimiento del sistema.
+
+4. Principio de Segregación de la Interfaz (ISP)
+Objetivo:
+Los clientes no deben verse obligados a depender de interfaces que no utilizan. Las interfaces deben ser específicas y contener solo los métodos relevantes para sus clientes.
+
+Aplicación:
+Utilizaremos ISP para dividir interfaces grandes en interfaces más específicas y cohesivas.
+
+Antes de la aplicación:
+
+plaintext
+Copiar código
+Interfaz ServicioBiblioteca:
+- métodos: prestarLibro(), devolverLibro(), buscarLibro()
+Después de la aplicación:
+
+plaintext
+Copiar código
+Interfaz ServicioPrestamo:
+- métodos: prestarLibro(), devolverLibro()
+
+Interfaz ServicioConsulta:
+- métodos: buscarLibro()
+Beneficios:
+Evita que las clases clientes dependan de métodos que no utilizan, reduciendo el acoplamiento y mejorando la cohesión de las interfaces.
+
+5. Principio de Inversión de Dependencias (DIP)
+Objetivo:
+Los módulos de alto nivel no deben depender de módulos de bajo nivel. Ambos deben depender de abstracciones.
+
+Aplicación:
+Aplicaremos DIP para desacoplar las clases de alto nivel (como GestorPrestamos) de las implementaciones concretas de bajo nivel (como la conexión a la base de datos).
+
+Antes de la aplicación:
+
+plaintext
+Copiar código
+Clase GestorPrestamos:
+- depende directamente de ConexionBDMySQL para la gestión de la base de datos
+Después de la aplicación:
+
+plaintext
+Copiar código
+Interfaz ConexionBD:
+- métodos: conectar(), desconectar(), ejecutarConsulta()
+
+Clase ConexionBDMySQL implementa ConexionBD:
+- implementación específica para MySQL
+
+Clase GestorPrestamos:
+- depende de ConexionBD (abstracción) para la gestión de la base de datos
+Beneficios:
+Facilita la prueba unitaria, la extensibilidad y la reutilización del código al permitir intercambiar fácilmente la implementación de la base de datos sin modificar GestorPrestamos.
+
+Resumen
+Al aplicar los principios SOLID en el proyecto del sistema de biblioteca, podemos mejorar significativamente su mantenibilidad, extensibilidad y modularidad. Cada principio aborda aspectos específicos del diseño orientado a objetos y proporciona directrices claras para estructurar el código de manera eficiente y robusta. Esto ayuda a evitar problemas comunes como el acoplamiento excesivo, la dificultad para realizar cambios y la falta de reutilización del código.
+
+
+
+
+
+
+
+
+5.Herencia y composición: En el marco del Diseño Orientado a Objetos, ¿cómo
+decidirías entre usar herencia y composición en el diseño de tu proyecto? Describe
+situaciones específicas en las que optarías por cada uno de estos enfoques y justifica
+tus decisiones. Explora cómo el uso de la herencia o la composición afectaría la
+estructura y la flexibilidad del código, así como su capacidad para adaptarse a futuros
+cambios y extensiones en el proyecto.
+
+En el diseño orientado a objetos, tanto la herencia como la composición son técnicas fundamentales para la reutilización de código y la creación de relaciones entre clases. La elección entre utilizar herencia o composición depende del contexto específico del proyecto y de cómo se desea modelar las relaciones entre objetos.
+
+Herencia
+Cuándo usar herencia:
+
+Relaciones del tipo "es un" (is-a relationship): La herencia es apropiada cuando una clase A es naturalmente una subclase de otra clase B. Por ejemplo, si tenemos una jerarquía de clases como Vehiculo (clase base) y Coche, Moto, Camioneta como subclases, donde cada una tiene comportamientos específicos pero comparten características comunes como velocidad máxima, número de ruedas, etc.
+
+Reutilización de código: Cuando existe una relación clara de extensión o especialización, la herencia permite heredar métodos y atributos de la clase base, evitando la duplicación de código.
+
+Polimorfismo: Permite tratar objetos de clases derivadas como objetos de la clase base, lo cual facilita la interoperabilidad y el diseño de sistemas que manejan varios tipos de objetos de manera uniforme.
+
+Impacto en la estructura y flexibilidad del código:
+
+Estructura: La estructura se define jerárquicamente, lo que puede hacer que sea más fácil de entender y seguir la relación entre las clases.
+Flexibilidad: Puede llevar a una estructura rígida si no se planifica correctamente, ya que los cambios en la clase base pueden afectar a todas las subclases. Sin embargo, el polimorfismo facilita la extensibilidad al permitir agregar nuevas subclases sin modificar el código existente en las clases que las utilizan.
+Composición
+Cuándo usar composición:
+
+Relaciones del tipo "tiene un" (has-a relationship): La composición se utiliza cuando un objeto A contiene un objeto B como parte de su estado. Por ejemplo, una clase Coche puede tener un objeto Motor, Ruedas, etc.
+
+Flexibilidad y mantenibilidad: Permite definir relaciones dinámicas entre objetos en tiempo de ejecución, lo cual es útil cuando se necesitan cambiar las asociaciones entre objetos sin afectar las clases que los utilizan.
+
+Interfaces más específicas: La composición permite crear interfaces más específicas y cohesivas al dividir las responsabilidades entre diferentes objetos.
+
+Impacto en la estructura y flexibilidad del código:
+
+Estructura: La estructura es más flexible y menos acoplada, ya que los objetos pueden ser intercambiados fácilmente sin afectar la estructura de las clases que los contienen.
+Flexibilidad: Facilita la adaptación a cambios y extensiones futuras, ya que los objetos pueden ser reemplazados o modificados más fácilmente sin afectar otras partes del sistema.
+Decisión entre Herencia y Composición
+La elección entre herencia y composición depende de cómo se modelan las relaciones entre objetos en el sistema y cómo se espera que evolucione en el futuro:
+
+Herencia es adecuada cuando hay una relación de tipo "es un" clara y cuando se necesita compartir comportamientos y atributos comunes entre clases relacionadas.
+
+Composición es más apropiada cuando se necesitan relaciones dinámicas y flexibles entre objetos, y cuando se desea evitar la rigidez de una jerarquía de clases.
+
+Justificación de la decisión:
+En el caso del sistema de biblioteca:
+
+Herencia: Puede ser útil para modelar la relación entre diferentes tipos de préstamos (PrestamoLibro, PrestamoPelicula, etc.) si comparten características comunes como fecha de préstamo, fecha de devolución, etc.
+
+Composición: Puede ser preferible para gestionar relaciones más dinámicas, como la asociación de un Socio con múltiples Prestamos, donde los préstamos pueden ser objetos complejos con su propio ciclo de vida y comportamiento.
+
+En resumen, la elección entre herencia y composición impacta significativamente en la estructura, flexibilidad y mantenibilidad del código. Es esencial evaluar cuidadosamente los requisitos y el diseño del sistema para determinar cuál enfoque es más adecuado para cada relación entre objetos en el proyecto de la biblioteca.
+
+1
