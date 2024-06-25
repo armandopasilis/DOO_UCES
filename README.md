@@ -2,13 +2,13 @@
 ____________________________________________________________________________________________
 Biblioteca Municipal "Luz y Saber"! - Diseño del Sistema
 ____________________________________________________________________________________________
-ALumno:Armando Pasilis  
+Alumno:Armando Pasilis  
 Materia: Diseño Orientado a Objetos -  
 Carrera:Tecnicatura Universitaria en Programación de Sistemas  
 Profesor:Matias Velasquez  
 Año:2024  
 ## Introducción  
-
+---
 La aplicacion tiene como proposito facilitar las tareas del usuario y bibliotecario.
 Los requisitos   
 -Registro y gestión de libros:Este requisito es el necesario para ingresar nuevos libros al sistema y para su correcto almacenaje . Este requisito relaciona la entidad Empleado y entidad Libro .  
