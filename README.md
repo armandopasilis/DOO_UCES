@@ -34,5 +34,5 @@ ________________________________________________________________________________
 *  [Aqui](https://docs.google.com/spreadsheets/d/1DsOFDdp2decXhO5Q-h-X5VQFj5rcK7yxf1D3R6Nu6v4/edit#gid=549554537)
 ____________________________________________________________________________________________  
 ## Matriz CLAE
-*  Estos escenarios proporcionan una visión práctica y concreta de cómo se espera que se ejecute un caso de uso en particular
+* Esta matriz CLAE sirve para determinar los métodos y operaciones
 *  [Aqui](https://docs.google.com/spreadsheets/d/1wAI_8oAL7P7DYLKixcjc1FFFu3q6vCk1r_FlEkbEf-0/edit?usp=sharing)
