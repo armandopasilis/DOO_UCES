@@ -36,3 +36,6 @@ ________________________________________________________________________________
 ## Matriz CLAE
 * Esta matriz CLAE sirve para determinar los métodos y operaciones
 *  [Aqui](https://docs.google.com/spreadsheets/d/1wAI_8oAL7P7DYLKixcjc1FFFu3q6vCk1r_FlEkbEf-0/edit?usp=sharing)
+  ____________________________________________________________________________________________  
+## Preguntas Teoricas   
+*  [Aqui](https://docs.google.com/document/d/1b93LjzYtDYi5zkoxJJsejq_0XEvYVHVMUQCqGmzGLmY/edit?usp=sharing)
