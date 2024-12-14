@@ -8,12 +8,11 @@ En tu código:
 La clase Usuario tiene un atributo nombre, que es protegido (con el modificador protected). Esto significa que las subclases pueden acceder a este atributo, pero el acceso desde fuera de la clase está restringido.
 
 La clase Bibliotecario, como subclase de Usuario, puede acceder y modificar directamente el nombre, pero el acceso al atributo está controlado, lo que ayuda a proteger el estado del objeto.
-____________________________________________________________________________________________
-Ejemplo en el proyecto 
-Incluir un diagrama UML que muestra cómo la clase o las clases del proyecto se relacionan entre sí al aplicar Encapsulamiento. Incluir una imagen incrustada, así como el enlace correctamente referenciado para ver el diagrama en detalle. Describe cómo el diagrama de las clases seleccionadas refleja el Encapsulamiento.
+
 ____________________________________________________________________________________________
 ## Imagen
-![image](https://github.com/user-attachments/assets/566fa402-1afd-4cc3-81d0-670f9bf9c334)
+![image](https://github.com/user-attachments/assets/f7e219ec-4009-4f94-a6f6-6c292dc83147)
+
 ____________________________________________________________________________________________
 ## Ejemplo de Código 
 Incluir un fragmento de código que demuestre la implementación de Encapsulamiento en el proyecto (puede ser pseudocódigo o un lenguaje como JavaScript, Python o Java).
@@ -82,3 +81,13 @@ public class Main {
     }
 }
 ```
+____________________________________________________________________________________________
+
+## ¿Cómo se aplica el encapsulamiento?
+El estado interno del objeto Usuario está protegido mediante el uso de atributos privados (en este caso, nombre). No se puede modificar directamente desde fuera de la clase.
+
+Se proporcionan métodos de acceso (getNombre() y setNombre()) para interactuar con los atributos de manera controlada. Esto asegura que los atributos solo se modifican cuando se cumplen ciertas condiciones (por ejemplo, el nombre no puede ser vacío).
+
+La subclase Bibliotecario tiene acceso a los métodos getNombre() y setNombre(), pero no puede modificar directamente el atributo nombre debido a su visibilidad privada en la clase base Usuario. Esto ayuda a proteger el estado del objeto y proporciona control sobre cómo se acceden o modifican los datos.
+
+
