@@ -48,8 +48,8 @@ public class Bibliotecario extends Usuario {
 ____________________________________________________________________________________________
 ## ¿Cómo se aplica la abstracción?
 
-La clase Usuario proporciona una interfaz común: el método obtenerInformacion(), que todos los tipos de usuarios (como Bibliotecario y Estudiante) deben implementar. Esto permite que el código cliente (como el método main()) interactúe con objetos de tipo Usuario sin preocuparse por los detalles de implementación de cada tipo específico de usuario.
+La clase Usuario proporciona una interfaz común: el método obtenerInformacion(), que todos los tipos de usuarios (como Bibliotecario y socio) deben implementar. Esto permite que el código cliente (como el método main()) interactúe con objetos de tipo Usuario sin preocuparse por los detalles de implementación de cada tipo específico de usuario.
 
-Los detalles de implementación están ocultos en las subclases: La forma en que se obtiene la información de un Bibliotecario o un Estudiante es diferente y está encapsulada dentro de cada subclase. El cliente solo interactúa con la interfaz común definida en Usuario, sin necesidad de saber cómo funciona internamente cada tipo de usuario.
+Los detalles de implementación están ocultos en las subclases: La forma en que se obtiene la información de un Bibliotecario o un socio es diferente y está encapsulada dentro de cada subclase. El cliente solo interactúa con la interfaz común definida en Usuario, sin necesidad de saber cómo funciona internamente cada tipo de usuario.
 
 Este es un ejemplo de abstracción, donde solo se expone la interfaz necesaria (obtenerInformacion()), mientras que los detalles de cómo cada tipo de usuario implementa esa interfaz se ocultan en las subclases concretas.
