@@ -42,7 +42,7 @@ public class Bibliotecario extends Usuario {
         // Devuelve información específica del bibliotecario
         return "Bibliotecario: " + nombre + " - ID: " + idBibliotecario;
     }
-}```
+}
 ```
 
 ____________________________________________________________________________________________
