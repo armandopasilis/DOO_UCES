@@ -4,3 +4,6 @@ _Explicación de Encapsulamiento como principio y su importancia en el diseño o
 Ejemplo en el proyecto 
 Incluir un diagrama UML que muestra cómo la clase o las clases del proyecto se relacionan entre sí al aplicar Encapsulamiento. Incluir una imagen incrustada, así como el enlace correctamente referenciado para ver el diagrama en detalle. Describe cómo el diagrama de las clases seleccionadas refleja el Encapsulamiento.
 
+Ejemplo de Código 
+Incluir un fragmento de código que demuestre la implementación de Encapsulamiento en el proyecto (puede ser pseudocódigo o un lenguaje como JavaScript, Python o Java).
+
