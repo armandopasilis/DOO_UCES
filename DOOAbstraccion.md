@@ -6,7 +6,7 @@ ________________________________________________________________________________
 ## Ejemplo en el proyecto 
 
 ## Imagen que describe
-![image](https://github.com/user-attachments/assets/57a19514-1f6a-4d98-b88f-64096f1c51b6)
+![image](https://github.com/user-attachments/assets/9c9e4f7a-2753-4c8f-a733-42da4f960e48)
 
 ____________________________________________________________________________________________
 [Diagrama de las clases](https://docs.google.com/presentation/d/1hRUJWvK62TNMjvtD5F0mrpfBQo8xms379FoKEji9zoo/edit#slide=id.p) 
