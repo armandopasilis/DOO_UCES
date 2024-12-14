@@ -12,7 +12,6 @@ ________________________________________________________________________________
 [Diagrama de las clases](https://docs.google.com/presentation/d/1hRUJWvK62TNMjvtD5F0mrpfBQo8xms379FoKEji9zoo/edit#slide=id.p) 
 ____________________________________________________________________________________________
 ## Ejemplo de Código 
- "```"
  "
 // Clase abstracta Usuario
 public abstract class Usuario {
