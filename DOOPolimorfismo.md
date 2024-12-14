@@ -24,7 +24,7 @@ public abstract class Usuario {
     }
 
     // Método abstracto que las subclases deben implementar
-    public abstract String obtenerInformacion();
+    public abstract String obtener_informacion();
 }
 
 // Subclase Bibliotecario que hereda de Usuario
@@ -39,7 +39,7 @@ public class Bibliotecario extends Usuario {
 
     // Implementación del método obtenerInformacion()
     @Override
-    public String obtenerInformacion() {
+    public String obtener_informacion() {
         return "Bibliotecario: " + nombre + " - ID: " + idBibliotecario;
     }
 }
@@ -56,7 +56,7 @@ public class Estudiante extends Usuario {
 
     // Implementación del método obtenerInformacion()
     @Override
-    public String obtenerInformacion() {
+    public String obtener_informacion() {
         return "Estudiante: " + nombre + " - ID: " + idEstudiante;
     }
 }
@@ -71,20 +71,20 @@ public class Main {
         usuarios[0] = new Bibliotecario("Carlos", 101);
         usuarios[1] = new Estudiante("Ana", 202);
         
-        // Utilizamos polimorfismo para llamar a obtenerInformacion() en ambos objetos
+        // Utilizamos polimorfismo para llamar a obtener_informacion() en ambos objetos
         // El método correcto se ejecutará según el tipo real del objeto (Bibliotecario o Estudiante)
         for (Usuario usuario : usuarios) {
-            System.out.println(usuario.obtenerInformacion());  // Llamada polimórfica
+            System.out.println(usuario.obtener_informacion());  // Llamada polimórfica
         }
     }
 }
 
 ```
 ____________________________________________________________________________________________
-##¿Cómo funciona el polimorfismo aquí?
-Polimorfismo de métodos: El método obtenerInformacion() se invoca de manera polimórfica sobre cada objeto del array usuarios. Aunque el tipo de referencia es Usuario, el método que se ejecuta depende del tipo real del objeto (es decir, si es un Bibliotecario o un Estudiante).
+## ¿Cómo funciona el polimorfismo aquí?  
+Polimorfismo de métodos: El método obtener_informacion() se invoca de manera polimórfica sobre cada objeto del array usuarios. Aunque el tipo de referencia es Usuario, el método que se ejecuta depende del tipo real del objeto (es decir, si es un Bibliotecario o un Estudiante).
 
-Comportamiento dinámico: El comportamiento del método obtenerInformacion() es dinámico y cambia según el tipo real del objeto en tiempo de ejecución. Este comportamiento es conocido como "vinculación tardía" o "late binding".
+Comportamiento dinámico: El comportamiento del método obtener_informacion() es dinámico y cambia según el tipo real del objeto en tiempo de ejecución. Este comportamiento es conocido como "vinculación tardía" o "late binding".
 
 Este ejemplo ilustra cómo el polimorfismo permite tratar objetos de diferentes tipos de manera uniforme, pero ejecutar un comportamiento diferente según el tipo de objeto real que se esté utilizando.
 
