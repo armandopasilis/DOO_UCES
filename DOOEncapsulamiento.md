@@ -1,10 +1,9 @@
 # Encapsulamiento   
 ____________________________________________________________________________________________
-_Explicación de Encapsulamiento como principio y su importancia en el diseño orientado a objetos._ 
 
 El encapsulamiento es el segundo pilar de OOP y se refiere al proceso de agrupar datos (atributos) y métodos (funciones) que operan sobre esos datos dentro de una única unidad o clase, y restringir el acceso directo a los datos. El propósito del encapsulamiento es proteger el estado interno de un objeto y garantizar que solo pueda ser modificado a través de métodos específicos (los llamados métodos de acceso o getters/setters).
 
-En tu código:
+En mi diagrama:
 La clase Usuario tiene un atributo nombre, que es protegido (con el modificador protected). Esto significa que las subclases pueden acceder a este atributo, pero el acceso desde fuera de la clase está restringido.
 
 La clase Bibliotecario, como subclase de Usuario, puede acceder y modificar directamente el nombre, pero el acceso al atributo está controlado, lo que ayuda a proteger el estado del objeto.
