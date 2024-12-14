@@ -43,7 +43,7 @@ public class Bibliotecario extends Usuario {
         return "Bibliotecario: " + nombre + " - ID: " + idBibliotecario;
     }
 }```
-
+```
 
 ____________________________________________________________________________________________
 ## ¿Cómo se aplica la abstracción?
