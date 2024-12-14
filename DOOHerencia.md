@@ -83,7 +83,7 @@ public class Main {
 ```
 ____________________________________________________________________________________________
 ## ¿Cómo se ve la herencia aquí?
-La clase Bibliotecario hereda de Usuario, lo que significa que obtiene los atributos y métodos de la clase base, como el atributo nombre y el método abstracto obtenerInformacion().
+La clase Bibliotecario hereda de Usuario, lo que significa que obtiene los atributos y métodos de la clase base, como el atributo nombre y el método abstracto obtener_informacion().
 La clase Estudiante también hereda de Usuario, lo que significa que ambas subclases (Bibliotecario y Estudiante) comparten una estructura común definida por la clase Usuario, pero implementan comportamientos específicos (en este caso, cómo devolver la información del bibliotecario o del estudiante).
 Esto permite reutilizar código en las subclases, centralizando la lógica común en la clase base y añadiendo detalles específicos en cada subclase.
 Este es un ejemplo claro de cómo la herencia permite que una clase hija herede comportamientos y atributos de una clase base, y los modifique o extienda según sea necesario.
