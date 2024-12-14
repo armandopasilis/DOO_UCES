@@ -18,8 +18,8 @@ Los requisitos
 ## Diagramas y Diseños
 
 Diagramas UML
-Herramientas Agile 
-Anexos
+Herramientas Agile https://github.com/armandopasilis/DOO_UCES/blob/main/Anexos
+Anexos(https://github.com/armandopasilis/DOO_UCES/blob/main/Anexos)
 1.Diagramas de actividades  ---> [Aqui](https://docs.google.com/presentation/d/1i_uKVIqJN0TnCQ1aR7jVnM60ItPXd8-3ih1lAw8xRZ8/edit#slide=id.p)  
 2.Diagramas secuencia  --->[Aqui](https://docs.google.com/document/d/1XxTVw_RGB7xmXsWb7b6ZQNCbKIO5DcObN38RhyjaOo8/edit?usp=sharing)  
 3.Diagramas clases     --->[Aqui](https://docs.google.com/presentation/d/1hRUJWvK62TNMjvtD5F0mrpfBQo8xms379FoKEji9zoo/edit#slide=id.p)  
