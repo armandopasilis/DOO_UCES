@@ -13,11 +13,11 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________
 ## Ejemplo de Código 
 
-"// Clase abstracta Usuario
+"`//Clase abstracta Usuario
 public abstract class Usuario {
     protected String nombre;  // Atributo común para todos los usuarios
 
-    // Constructor que inicializa el nombre del usuario
+    //Constructor que inicializa el nombre del usuario
     public Usuario(String nombre) {
         this.nombre = nombre;
     }
@@ -42,7 +42,7 @@ public class Bibliotecario extends Usuario {
         // Devuelve información específica del bibliotecario
         return "Bibliotecario: " + nombre + " - ID: " + idBibliotecario;
     }
-}"
+}`"
 
 
 ____________________________________________________________________________________________
