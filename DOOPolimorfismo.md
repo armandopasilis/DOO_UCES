@@ -7,7 +7,7 @@ El polimorfismo es el cuarto pilar de OOP y permite que se pueda usar un mismo m
 ## Ejemplo en el proyecto 
 
 ## Imagen que describe
-![image](https://github.com/user-attachments/assets/9c9e4f7a-2753-4c8f-a733-42da4f960e48)
+![image](https://github.com/user-attachments/assets/683b7423-479a-4053-8086-377bb95b6a35)
 
 ____________________________________________________________________________________________
 [Diagrama de las clases](https://docs.google.com/presentation/d/1hRUJWvK62TNMjvtD5F0mrpfBQo8xms379FoKEji9zoo/edit#slide=id.p) 
