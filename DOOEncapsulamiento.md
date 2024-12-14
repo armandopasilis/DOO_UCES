@@ -17,7 +17,7 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________
 ## Ejemplo de Código 
 Incluir un fragmento de código que demuestre la implementación de Encapsulamiento en el proyecto (puede ser pseudocódigo o un lenguaje como JavaScript, Python o Java).
-´´´JAVA
+```java
 // Clase Usuario con encapsulamiento
 public class Usuario {
     // Atributo privado para proteger el estado del objeto
@@ -81,4 +81,4 @@ public class Main {
         System.out.println(bibliotecario.obtenerInformacion());  // Bibliotecario: Juan - ID: 101
     }
 }
-´´´
+```
